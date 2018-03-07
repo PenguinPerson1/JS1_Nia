@@ -5,5 +5,15 @@ h1 {
     color: rgb(51, 102, 0);
 }
 p{
-    color: lightSalmon;
+    color: rgb(255, 77, 77);
+}
+button {
+    background-color: rgb(255,255,255);
+    border: none;
+    color: rgb(0,0,0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
