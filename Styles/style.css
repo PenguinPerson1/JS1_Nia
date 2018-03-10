@@ -1,0 +1,26 @@
+body {
+  font-size: 25px;
+  font-family: 'VT323', monospace;
+  background-color: powderblue;
+}
+h1 {
+  font-size: 50px;
+  font-family: 'Astloch', cursive, bold;
+  color: rgb(51, 102, 0);
+}
+p{
+  font-size: 16px;
+  font-family: 'Baumans', cursive;
+  color: rgb(255, 77, 77);
+}
+button {
+  font-family: 'Bevan', cursive;
+  background-color: rgb(255,255,255);
+  border: none;
+  color: rgb(0,0,0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

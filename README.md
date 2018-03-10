@@ -1,3 +1,0 @@
-Hi
-Hello, how are you?
-HEEEEELLLLLLLLLOOOOOOOO!
