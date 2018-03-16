@@ -11,11 +11,47 @@
 </head>
 <body>
   <h1>Hi</h1>
-  <img src="http://pm1.narvii.com/6154/128c33ed41ef083b694970dce10267f8eece3622_128.jpg" alt="Baby Penguin"
+  <img id="regular" src="http://pm1.narvii.com/6154/128c33ed41ef083b694970dce10267f8eece3622_128.jpg" alt="Baby Penguin"
   <p>Click this button if you think penguins are the best animal!</p>
-  <button onclick="myFunction()">Click me</button>
+  <button id="outset" onclick="MyFunction()">Click me</button>
   <p id="demo"></p>
 
+  <h2>My Amazing Form</h2>
+  <p>Do you like penguins?</p>
+  <button id="form" type="button" onclick="MyFunction2()">I don't like penguins</button>
+  <button id="form" type="button">I like penguins</button>
+  <form>
+    First name:<br>
+    <input type="text" name="firstname"><br>
+    Last name:<br>
+    <input type="text" name="lastname">
+    <br>
+    How much do you like penguins on a scale of 1 t0 10?
+    <input type="number" name="quantity" min="1" max="10">
+    <br>
+    When did you start liking penguins?
+    <input type="date">
+    <br>
+    What type of penguin do you like most?
+    <br>
+    <input type="radio" name="Penguin" value="Adelie" checked>Adelie<br>
+    <input type="radio" name="Penguin" value="African">African<br>
+    <input type="radio" name="Penguin" value="Chinstrap">Chinstrap<br>
+    <input type="radio" name="Penguin" value="Emperor">Emperor<br>
+    <input type="radio" name="Penguin" value="Erect-crested">Erect-crested<br>
+    <input type="radio" name="Penguin" value="Fiordland">Fiordland<br>
+    <input type="radio" name="Penguin" value="Galapagos">Galapagos<br>
+    <input type="radio" name="Penguin" value="Gentoo">Gentoo<br>
+    <input type="radio" name="Penguin" value="Humboldt">Humboldt<br>
+    <input type="radio" name="Penguin" value="King">King<br>
+    <input type="radio" name="Penguin" value="Little">Little<br>
+    <input type="radio" name="Penguin" value="Macaroni">Macaroni<br>
+    <input type="radio" name="Penguin" value="Magellanic">Magellanic<br>
+    <input type="radio" name="Penguin" value="Rockhopper">Rockhopper<br>
+    <input type="radio" name="Penguin" value="Royal">Royal<br>
+    <input type="radio" name="Penguin" value="Snares">Snares<br>
+    <input type="radio" name="Penguin" value="Yellow-eyed">Yellow-eyed<br><br>
+  </form>
   <script src="Scripts\script.js"></script>
 </body>
 </html>
