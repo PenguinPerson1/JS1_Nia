@@ -4,6 +4,3 @@ function MyFunction() {
     document.getElementById('regular').id = 'inverted';
 
 }
-function MyFunction2(){
-  self.close()
-}
