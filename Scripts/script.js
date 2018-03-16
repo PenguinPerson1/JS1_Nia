@@ -4,3 +4,10 @@ function MyFunction() {
     document.getElementById('regular').id = 'inverted';
 
 }
+function MyFunction2(){
+  self.close()
+}
+function MyFunction3() {
+  window.open(_blank);
+  myWindow.document.write("<p>Thank you for taking my survey!</p>");
+}
