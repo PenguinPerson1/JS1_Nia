@@ -1,43 +1,27 @@
-body {
-  font-size: 25px;
-  font-family: 'VT323', monospace;
-  background-color: powderblue;
+table {
+    width:100%;
 }
-h1 {
-  font-size: 50px;
-  font-family: 'Astloch', cursive, bold;
-  color: rgb(51, 102, 0);
+thead {
+  background-color: rgb(0,0,0);
+  color: white
 }
-p{
-  font-size: 16px;
-  font-family: 'Baumans', cursive;
-  color: #4d0000;
+tfoot  {
+  font-weight: bold;
+  background-color: yellow
 }
-#outset {
-  border-radius: 0%
-  font-family: 'Bevan', cursive;
-  background-color: rgb(255,255,255);
-  color: rgb(0,0,0);
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border: 5px outset #ffffff;
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
 }
-#inset {
-  border-radius: 0%
-  font-family: 'Bevan', cursive;
-  background-color: rgb(255,255,255);
-  color: rgb(0,0,0);
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border: 5px inset #ffffff;
+th, td {
+    padding: 15px;
+    text-align: left;
 }
-
-#inverted{
-  filter: invert(100%);
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+table#to1 tr:nth-child(5)
+table#t01 th {
+    background-color: black;
+    color: white;
 }
