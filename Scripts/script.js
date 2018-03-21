@@ -1,6 +1,6 @@
-var Num=0;
+var x = myFunction(0);
+document.getElementById("demo").innerHTML = x;
 
-function myFunction() {
-  Num=Num+1
-  document.getElementById("Add1Format").innerHTML = Num;
+function myFunction(a) {
+    return a + 1;
 }
