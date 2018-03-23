@@ -1,2 +1,5 @@
 var x=0;
-document.getElementById("Format").innerHTML = x;
+function myFunction() {
+  document.getElementById("Format").innerHTML = x;
+  x=x+1;
+}
