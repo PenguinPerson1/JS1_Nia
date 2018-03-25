@@ -4,3 +4,15 @@ function MyFunction() {
     document.getElementById('regular').id = 'inverted';
 
 }
+function Hide() {
+  $("#HS").hide();
+}
+function Show() {
+  $("#HS").show();
+}
+$(".Hide").click( () => {
+  Hide()
+});
+$(".Show").click( ()=> {
+  Show()
+})
