@@ -6,10 +6,15 @@ function MyFunction() {
 }
 function Hide() {
   $("#HS").hide();
+  $("#HSBH").hide();
+  $("#HSBS").show();
 }
 function Show() {
   $("#HS").show();
+  $("#HSBS").hide();
+  $("#HSBH").show();
 }
+
 $(".Hide").click( () => {
   Hide()
 });
